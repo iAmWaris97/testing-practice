@@ -1,5 +1,5 @@
-const stringLenght = require('./modules/stringLenght');
+const stringLength = require('./modules/stringLenght');
 
-test('adds 1 + 2 to equal 3', () => {
-  expect(sum(1, 2)).toBe(3);
+test('stringLength function should return the length of the string', () => {
+  expect(stringLength("Waris")).toBe(5);
 });
